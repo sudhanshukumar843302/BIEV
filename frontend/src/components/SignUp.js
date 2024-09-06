@@ -6,18 +6,7 @@ import axios from "axios";
 import { toast } from "react-toastify"; // react-toastify is used to handle notification beautifully
 
 const SignUp = () => {
-  //------------ api call only using JS
-  /*
-  const fetchData = async ()=>{
-    const response = await fetch("http://localhost:5000/data");
-    const data = await response.json();
-    console.log(data);
-  }
-  useEffect(()=>{
-    fetchData();
-  },[]);
-*/
-  //----------------
+  
   const [name, setName] = useState("");
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");

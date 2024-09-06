@@ -7,7 +7,6 @@ const { Jwt_secret } = require("../key.js");
 const requireLogin = require("../middleware/requireLogin.js");
 
 const router = express.Router(); //used to handle request on large website in effective manner
-
 router.post("/signup", (req, res) => {
   const { name, username, email, password } = req.body;
 

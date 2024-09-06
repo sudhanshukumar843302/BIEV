@@ -8,7 +8,6 @@ const PORT = process.env.port || 5000;
 const cors = require("cors");
 app.use(cors());
 
-
 const {mongoURL} = require("./key");
 
 require("./model/schema");
